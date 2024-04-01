@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "go school project",
+            "group": "golang-sqlite",
+            "database": "${workspaceFolder:gin-first-project}/test.db"
+        }
+    ]
+}

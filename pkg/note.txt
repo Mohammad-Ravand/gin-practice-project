@@ -1,0 +1,1 @@
+# Library code that's OK to use by external applications

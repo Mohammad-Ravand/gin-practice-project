@@ -1,0 +1,11 @@
+# .air.toml
+# Entry point of your application
+[build]
+cmd = "go build -o ./tmp/main.exe ./cmd/server/main.go"
+# Environment variables
+[env]
+CGO_ENABLED = "1"
+GIN_MODE = "debug"
+# Directories to watch
+[watch]
+paths = ["cmd", "internal", "pkg"]

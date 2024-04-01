@@ -1,0 +1,5 @@
+# Scripts for build, deployment, etc.
+scripts/: This directory can contain scripts for various tasks such as
+ build automation, deployment, database seeding, etc.
+Keeping scripts organized in one place helps maintain 
+  consistency and ease of access.
